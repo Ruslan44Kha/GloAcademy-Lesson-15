@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Futura Book', sans-serif;
   font-size: 14px;
 }
 .header {
@@ -9,7 +9,7 @@ body {
 .container {
   max-width: 1256px;
   margin: auto;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .menu {
   display: flex;
