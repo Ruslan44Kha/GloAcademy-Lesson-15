@@ -6,21 +6,30 @@
   url('FuturaBookC.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
-  @font-face {
-    font-family: 'Futura Demi';
-    src: url('FuturaDemiC.eot');
-    src: url('FuturaDemiC.eot?#iefix') format('embedded-opentype'),
-    url('FuturaDemiC.woff') format('woff'),
-    url('FuturaDemiC.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
+}
+@font-face {
+  font-family: 'Futura Demi';
+  src: url('FuturaDemiC.eot');
+  src: url('FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+  url('FuturaDemiC.woff') format('woff'),
+  url('FuturaDemiC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Futura Book', sans-serif;
   font-size: 14px;
 }
 .header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
   background-color: black;
   padding: 24px 0;
 }
@@ -57,4 +66,37 @@ body {
   background-color: #E3B873;
   color: #fff;
   font-size: 13px;
+}
+.button--outline {
+  background-color: unset;
+  border: 1px solid white;
+}
+.hero {
+  position: relative;
+  padding-top: 100px;
+  background: black url(../img/hero-bg.jpg) no-repeat center / cover;
+  height: 100vh;
+  color: white;
+}
+.hero__instagram {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 80px;
+  height: 100%;
+}
+.Instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.instagram__link {
+  text-transform: uppercase;
+  color: #E3B873;
+  text-decoration: none;
+  transform: rotate(-90deg);
+}
+.title {
+  margin: 0;
 }
