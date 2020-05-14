@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Futura Book';
+  src: url('FuturaBookC.eot');
+  src: url('FuturaBookC.eot?#iefix') format('embedded-opentype'),
+  url('FuturaBookC.woff') format('woff'),
+  url('FuturaBookC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  @font-face {
+    font-family: 'Futura Demi';
+    src: url('FuturaDemiC.eot');
+    src: url('FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+    url('FuturaDemiC.woff') format('woff'),
+    url('FuturaDemiC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 body {
   font-family: 'Futura Book', sans-serif;
   font-size: 14px;
@@ -9,7 +27,6 @@ body {
 .container {
   max-width: 1256px;
   margin: auto;
-  border: 0px solid red;
 }
 .menu {
   display: flex;
