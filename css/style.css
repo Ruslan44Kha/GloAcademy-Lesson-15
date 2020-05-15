@@ -1,18 +1,16 @@
 @font-face {
   font-family: 'Futura Book';
-  src: url('FuturaBookC.eot');
-  src: url('FuturaBookC.eot?#iefix') format('embedded-opentype'),
-  url('FuturaBookC.woff') format('woff'),
-  url('FuturaBookC.ttf') format('truetype');
+  src:
+  url('../fonts/futura/FuturaBookC.woff') format('woff'),
+  url('../fonts/futura/FuturaBookC.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Futura Demi';
-  src: url('FuturaDemiC.eot');
-  src: url('FuturaDemiC.eot?#iefix') format('embedded-opentype'),
-  url('FuturaDemiC.woff') format('woff'),
-  url('FuturaDemiC.ttf') format('truetype');
+  src:
+  url('../fonts/futura/FuturaDemiC.woff') format('woff'),
+  url('../fonts/futura/FuturaDemiC.woff2') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -91,7 +89,7 @@ body {
   max-width: 500px;
 }
 .hero__button {
-  margin-right: 20px;
+  margin-right: 22px;
 }
 .hero__instagram {
   position: absolute;
@@ -106,7 +104,7 @@ body {
   justify-content: center;
   align-items: center;
   left: 0;
-  bottom: o;
+  bottom: 0;
   min-width: 247px;
   min-height: 97px;
   background-color: black;
@@ -124,7 +122,7 @@ body {
   text-transform: uppercase;
   color: #E3B873;
   text-decoration: none;
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 .title {
   margin: 0;
