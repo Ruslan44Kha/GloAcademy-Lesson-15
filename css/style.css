@@ -50,6 +50,10 @@ body {
   color: #fff;
   text-transform: uppercase;
   margin-right: 40px;
+  transition: color 0.2s;
+}
+.nav__item:hover {
+  color: #E3B873;
 }
 .phone {
   color: #E3B873;
@@ -66,10 +70,18 @@ body {
   color: #fff;
   font-size: 13px;
 }
+.button:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
 .button--outline {
   background-color: transparent;
   border: 1px solid white;
   color: white;
+}
+.button--primary {
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  transition: box-shadow 0.3s;
 }
 .hero {
   position: relative;
@@ -81,7 +93,17 @@ body {
   height: 100vh;
   color: white;
 }
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 .hero__content {
+  position: relative;
   max-width: 670px;
 }
 .hero__text {
@@ -112,6 +134,15 @@ body {
   text-decoration: none;
   color: white;
 }
+.hero__scroll-down::after {
+  content: '';
+  background: url(../img/arrow-down.svg) no-repeat center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #E3B873;
+  border-radius: 50%;
+  margin-left: 12px;
+}
 .Instagram {
   display: flex;
   justify-content: center;
@@ -119,10 +150,20 @@ body {
   background-color: black;
 }
 .instagram__link {
+  display: flex;
+  align-items: center;
   text-transform: uppercase;
   color: #E3B873;
   text-decoration: none;
   transform: rotate(90deg);
+  line-height: 0.8;
+}
+.instagram__link::after {
+  content: '';
+  width: 50px;
+  height: 1px;
+  background-color: #E3B873;
+  margin-left: 8px;
 }
 .title {
   margin: 0;
