@@ -174,3 +174,19 @@ body {
 .title--primary {
   color: #E3B873;
 }
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Yeseva One', cursive;
+}
+.section-title__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-title__image::before,::after {
+  content: '';
+  width: 32px;
+  height: 2px;
+  background-color: #E3B873;
+}
