@@ -18,9 +18,12 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+html {
+  font-size: 14px;
+}
 body {
   font-family: 'Futura Book', sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
 }
 .header {
   position: fixed;
@@ -49,7 +52,7 @@ body {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  margin-right: 40px;
+  margin-right: 2.85rem;
   transition: color 0.2s;
 }
 .nav__item:hover {
@@ -68,7 +71,7 @@ body {
   text-transform: uppercase;
   background-color: #E3B873;
   color: #fff;
-  font-size: 13px;
+  font-size: 0.93rem;
 }
 .button:hover {
   cursor: pointer;
@@ -104,10 +107,11 @@ body {
 }
 .hero__content {
   position: relative;
-  max-width: 670px;
+  max-width: 47.85rem;
+  margin-right: 4.28rem;
 }
 .hero__text {
-  font-size: 22px;
+  font-size: 1.57rem;
   max-width: 500px;
 }
 .hero__button {
@@ -127,8 +131,8 @@ body {
   align-items: center;
   left: 0;
   bottom: 0;
-  min-width: 247px;
-  min-height: 97px;
+  min-width: 17.6rem;
+  min-height: 6.92rem;
   background-color: black;
   text-transform: uppercase;
   text-decoration: none;
@@ -169,7 +173,7 @@ body {
   margin: 0;
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 2.857rem;
 }
 .title--primary {
   color: #E3B873;
@@ -184,7 +188,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.section-title__image::before,::after {
+.section-title__image::before {
+  content: '';
+  width: 32px;
+  height: 2px;
+  background-color: #E3B873;
+}
+.section-title__image::after {
   content: '';
   width: 32px;
   height: 2px;
