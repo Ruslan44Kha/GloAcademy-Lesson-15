@@ -257,6 +257,7 @@ img {
 }
 .card__pricetag {
   position: absolute;
+  width: 16.647rem;
   left: 0;
   bottom: -1.79rem;
   font-size: 1.29rem;
