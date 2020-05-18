@@ -265,6 +265,16 @@ img {
   background-color: #E3B873;
   color: #ffffff;
   padding: 1.214rem 2.6rem;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1);
 }
 
-
+.section__text {
+  width: 52.93rem;
+  height: 4.07rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1.7rem;
+  margin-bottom: 2.79rem;
+  font-size: 1.43rem;
+  text-align: center;
+}

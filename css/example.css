@@ -63,4 +63,14 @@
   .card__text {
     margin-left: 0;
   }
+  .section__text {
+    width: 21.86rem;
+    height: 5.43rem;
+    margin-top: 1.65rem;
+    margin-bottom: 2.79rem;
+    font-size: 1.07rem;
+  }
+  .project__card {
+    margin-bottom: 5rem;
+  }
 }
