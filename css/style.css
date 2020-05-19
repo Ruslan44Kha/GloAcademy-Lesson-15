@@ -197,8 +197,6 @@ img {
 .title--primary {
   color: #E3B873;
 }
-
-
 .section-title {
   text-align: center;
   text-transform: uppercase;
@@ -255,7 +253,7 @@ img {
   color: #959595;
   margin-bottom: 2.5rem;
 }
-.card__pricetag {
+.card__pricetag { 
   position: absolute;
   width: 16.647rem;
   left: 0;
@@ -268,7 +266,6 @@ img {
   padding: 1.214rem 2.6rem;
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1);
 }
-
 .section__text {
   width: 52.93rem;
   height: 4.07rem;
@@ -278,4 +275,42 @@ img {
   margin-bottom: 2.79rem;
   font-size: 1.43rem;
   text-align: center;
+}
+.label {
+  font-size: 1.07rem;
+}
+.label--light {
+  color: rgba(255, 255, 255, 0.5);
+}
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 1.285rem;
+  color: white;
+  padding: 0.5rem 0;
+}
+.input::placeholder {
+  color: white;
+}
+.policy__checkbox {
+opacity: 0;
+visibility: hidden;
+}
+.policy__checkbox:checked + .policy__label::before {
+  background: #E3B873 url('../img/check.svg') no-repeat center / 0.8rem;
+
+}
+.policy__label {
+  display: flex;
+  align-items: center;
+}
+.policy__label::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  border: 1px solid #E3B873;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-right: 0.64rem;
 }
