@@ -1,4 +1,6 @@
 .modal {
+  opacity: 0;
+  visibility: hidden;
   position: fixed;
   z-index: 199;
   left: 0;
@@ -12,7 +14,11 @@
   align-items: center;
   justify-content: center;
 }
-.modal__dialog {
+.modal--visible {
+  opacity: 1;
+  visibility: visible;
+}
+.modal__dialog { 
   position: relative;
   max-width: 36.36rem;
   background: black url(../img/bg-lines.svg) no-repeat center;
