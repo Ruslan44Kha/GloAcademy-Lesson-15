@@ -262,6 +262,15 @@ img {
       height: 2px;
       background-color: #E3B873;
     }
+  .section-title__description {
+    max-width: 52.928rem;
+    margin: auto;
+    margin-top: 1.7rem;
+    margin-bottom: 2.79rem;
+    text-align: center;
+    font-size: 1.428rem;
+    line-height: 2.4rem;
+  }
 .projects {
   padding-bottom: 30rem;
 }
@@ -435,16 +444,7 @@ img {
   padding: 1.214rem 2.6rem;
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1);
 }
-.section__text {
-  width: 52.93rem;
-  height: 4.07rem;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 1.7rem;
-  margin-bottom: 2.79rem;
-  font-size: 1.43rem;
-  text-align: center;
-}
+
 .label {
   font-size: 1.07rem;
 }
