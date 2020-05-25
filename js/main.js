@@ -55,7 +55,8 @@ $(document).ready(function() {
       // строчное правило
       userName: {
         required: true,
-        minlength: 2
+        minlength: 2,
+        maxlength: 15
       },
       userPhone: "required",
       // правило-объект (блок)
@@ -67,7 +68,8 @@ $(document).ready(function() {
     messages: {
       userName: {
         required: "Имя обязательно",
-        minlength: "Имя не короче двух букв"
+        minlength: "Имя не менее двух букв",
+        maxlength: "Имя не более пятнадцати букв"
       },
       userPhone: "Телефон обязателен",
       userEmail: {
