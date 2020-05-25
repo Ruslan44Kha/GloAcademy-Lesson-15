@@ -546,3 +546,9 @@ visibility: hidden;
      background-color: #181818;
      padding: 4.285rem 0;
    }
+label.invalid {
+  color: tomato;
+}
+input.invalid {
+  border-bottom: 1px solid tomato;
+}
