@@ -546,6 +546,10 @@ visibility: hidden;
      background-color: #181818;
      padding: 4.285rem 0;
    }
+   .footer__map {
+     margin-bottom: 4rem;
+     min-height: 465px;
+   }
 label.invalid {
   color: tomato;
 }
