@@ -105,7 +105,7 @@ $(document).ready(function() {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/myIcon.gif',
+            iconImageHref: 'img/marker.png',
             // Размеры метки.
             iconImageSize: [32, 32],
             // Смещение левого верхнего угла иконки относительно
@@ -122,7 +122,7 @@ $(document).ready(function() {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'img/location.png',
+            iconImageHref: '',
             // Размеры метки.
             iconImageSize: [48, 48],
             // Смещение левого верхнего угла иконки относительно
