@@ -556,3 +556,28 @@ label.invalid {
 input.invalid {
   border-bottom: 1px solid tomato;
 }
+
+.team {
+  margin-bottom: 6.357rem;
+}
+  .team__text {
+    max-width: 40.785rem;
+    margin: auto;
+    margin-bottom: 4.285rem;
+    text-align: center;
+    font-size: 1.428rem;
+    line-height: 2.4rem;
+  }
+  .row__team {
+    margin-bottom: 5.143rem;
+  }
+  .row__team::before {
+    display: block;
+    margin: auto;
+    margin-bottom: 2.5rem;
+    content: '';
+    width: 55px;
+    height: 2px;
+    background-color: #E3B873;
+    border-radius: 30px;
+    }

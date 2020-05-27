@@ -461,6 +461,92 @@
             <!-- /.container -->
         </section>
         <!-- /.section design -->
+        
+        <section class="section team">
+            <div class="container">
+                <div class="section-title team__section-title">
+                    <h2 class="section-title__heading">Наша команда</h2>
+                    <!-- /.section-design__heading -->
+                    <div class="section-title__image">
+                        <img src="img/team/team-icon.svg" alt="suffix">
+                    </div>
+                    <!-- /.section-title__image -->
+                </div>
+                <!-- /.section-title -->
+                <p class="team__text">Наша команда помогла стать счастливее более чем 500 семьям, и мы не собираемся останавливаться</p>
+                <!-- /.section-title__description -->
+                
+                <div class="row row__team">
+                    <div class="col-30">
+                        <div class="card team__card">
+                            <img src="img/team/Alex.jpg" alt="Алексей Колмаков" class="card__image">
+                            <div class="card__text">
+                                <h3 class="card__title">Алексей Колмаков</h3>
+                                <!-- /.card__title -->
+                                <ul class="card__list">
+                                    <li class="card__item">Проектный менеджер</li>
+                                    <!-- /.card__item -->
+                                </ul>
+                                <!-- /.card__list --> 
+                                <strong class="card__pricetag">
+                                    Опыт работы 8 лет
+                                </strong>
+                            </div>
+                            <!-- /.card__text -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-30">
+                        <div class="card team__card">
+                            <img src="img/team/Alice.jpg" alt="Алиса Сухорукова" class="card__image">
+                            <div class="card__text">
+                                <h3 class="card__title">Алиса Сухорукова</h3>
+                                <!-- /.card__title -->
+                                <ul class="card__list">
+                                    <li class="card__item">Дизайнер</li>
+                                    <!-- /.card__item -->
+                                </ul>
+                                <!-- /.card__list -->
+                                <strong class="card__pricetag">
+                                    Опыт работы 6 лет
+                                </strong>
+                            </div>
+                            <!-- /.card__text -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-30">
+                        <div class="card team__card">
+                            <img src="img/team/David.jpg" alt="Давид Волынев" class="card__image">
+                            <div class="card__text">
+                                <h3 class="card__title">Давид Волынев</h3>
+                                <!-- /.card__title -->
+                                <ul class="card__list">
+                                    <li class="card__item">Бригадир</li>
+                                    <!-- /.card__item -->
+                                </ul>
+                                <!-- /.card__list -->
+                                <strong class="card__pricetag">
+                                    Опыт работы 7 лет
+                                </strong>
+                            </div>
+                            <!-- /.card__text -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+                <p class="team__text"> Каждый сотрудник нашей компании является квалифицированным штатным специалистом с опытом работы от 6 лет.
+                     У нас нет гастарбайтеров, каждый сотрудник выполняет работу, соответствующую его специальности.
+                </p>
+                <!-- /.section-title__description -->
+            </div>
+
+            <!-- /.container -->
+        </section>
     </main>
     <footer class="footer section--dark">
         <div class="container">
@@ -527,7 +613,7 @@
         <div class="modal__dialog">
             <button class="modal__close"></button>
             <h3 class="modal__title">Оставьте заявку и наш менеджер свяжется с вами</h3>
-            <form action="#" class="form modal__form">
+            <form action="send.php" method="POST" class="form modal__form">
                 <div class="input-group modal__input-group">
                     <label for="user-name" class="label form__label label--light">Имя</label>
                     <input type="text" autocomplete="off" name="userName" class="input form__input modal__input input--light" id="user-name" placeholder="Как вас зовут:">
