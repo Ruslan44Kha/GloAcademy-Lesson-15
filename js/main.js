@@ -1,20 +1,3 @@
-/*
-document.addEventListener("DOMContentLoaded", function(event){
-  const modal = document.querySelector('.modal');
-  const modalBtn = document.querySelectorAll('[data-toggle=modal]');
-  const closeBtn = document.querySelector('.modal__close');
-  const switchModal = () => {
-    modal.classList.toggle('modal--visible');
-  }
-  modalBtn.forEach(element => {
-    element.addEventListener('click', switchModal); 
-  });
-
-  closeBtn.addEventListener('click', switchModal);
-
-});
-*/
-
 $(document).ready(function() {
   var modal = $('.modal'),
       modalBtn = $('[data-toggle=modal]'),
@@ -76,6 +59,21 @@ $(document).ready(function() {
         required: "Обязательно укажите email",
         email: "Введите в формате: name@domain.com"
       }
+    },
+    submitHandler: function(form) {
+      $.ajax({
+        type: "POST",
+        url: "send.php",
+        data: $(form).serialize(),
+        success: function (response) {
+          alert('Форма отправлена, мы свяжемся с вами через 10 минут');
+          $(form)[0].reset();
+          modal.removClass('modal--visible');
+        },
+        error: function (response) {
+          console.error('Ошибка запроса' + response);
+        }
+      });
     }
   });
 
